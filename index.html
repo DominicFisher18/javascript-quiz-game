@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="/javascript-quiz-game/assets/css/style.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Better Quiz Game</title>
+    </head>
+    <body>
+        <div class="header">
+            <div class="left-side">
+                <div>
+                    Coding Quiz!
+                </div>
+            </div>
+
+            <div class="right-side">
+                <div class=" time style-countdown">Time: 
+                    <span class="countdown style-countdown">60</span>
+                </div>
+                <div class="score">
+                    Score:
+                    <span class="score2">0</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="main js-main-remove remove2">
+            <div class="block-2 revealed">
+                <div class="main-text remove1 revealed">
+                    Welcome to my coding quiz! You will have 60 seconds to get as many
+                    questions right as you can, and wrong answers will deduct 5 seconds from your time. Good luck!
+                </div>
+                <div class="block-2 main-button">
+                    <button class="js-start-button start-button remove1">Start Quiz!</button>
+                </div>
+            </div>
+
+            <div class="hidden main-quiz">
+                <div class="quiz-alignment">
+                    <div class="questions-title cs-questions"></div>
+
+                    <button class="button1 ansButton"></button>
+                    <button class="button2 ansButton"></button>
+                    <button class="button3 ansButton"></button>
+                    <button class="button4 ansButton"></button>
+                </div>
+            </div>
+
+            <div class="end-of-game hidden end-of-game-revelaed">
+                <div class="end-of-game-header">
+                    Game Over!
+                </div>
+                <div class="end-of-game-score">
+                    Your Score:
+                    <span class="js-end-score">
+
+                    </span>
+                </div>
+                
+            </div>
+            
+            <button class="js-play-button hidden play-again-button">Play Again</button>
+            
+        </div>
+
+        
+        
+        <script src="/javascript-quiz-game/assets/js/script.js"></script>
+        <script src="/javascript-quiz-game/assets/js/questions.js"></script>
+    </body>
+</html>
